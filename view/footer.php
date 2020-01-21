@@ -1,3 +1,3 @@
-<footer id="footer-section" class="footer-section clearfix">
+<footer id="footer-section">
     <p>©2020 Cyril Chenal</p>
 </footer>

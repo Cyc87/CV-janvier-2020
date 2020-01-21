@@ -45,9 +45,7 @@
 <section id="contact">
     <div class="container">
         <div class="section-titre">
-            <h2>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                Contact </h2>
+            <h2 class="titreH2" style="color:white"><i class="fa fa-envelope" aria-hidden="true"></i>Contact </h2>
         </div>
         <div class="card-body" style="color:white">
             <form method="post" action="index.php?action=contact">
@@ -76,9 +74,14 @@
                                                                             } ?></textarea>
                 </div>
                 <div class="send" style="margin-top:50px">
-                    <input class="btn btn-dark" name="sendMail" type="submit">
-                    <button class="btn btn-dark"><a style="text-decoration:none;color:white" href="index.php?action=home">Retour à l'accueil</a></button>
-                </div>
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <input class="btn btn-dark" name="sendMail" type="submit">
+                        </div>
+                        <div class="col-4">
+                            <button style="margin-left: -31px;" class="btn btn-dark"><a style="text-decoration:none;color:white" href="index.php?action=home">Retour à l'accueil</a></button>
+                        </div>
+                    </div>
             </form>
         </div>
     </div>
@@ -99,3 +102,4 @@ if (isset($_SESSION['message'])) {
     <?php $content = ob_get_clean(); ?>
 
     <?php require('view/template.php') ?>
+    <?php require('view/footer.php') ?>

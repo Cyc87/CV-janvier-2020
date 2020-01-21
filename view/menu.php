@@ -32,7 +32,7 @@
                         Expérience </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#loisirs">
+                    <a class="nav-link" href="#hobbies">
                         Loisirs </a>
                 </li>
                 <li class="nav-item">

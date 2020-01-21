@@ -107,6 +107,106 @@ p {
         background-position: 40px 0;
     }
 }
+/*set up diploma*/
+#diplomes:target {
+    padding-top: 160px;
+}
+
+#diplomes {
+    margin-top: 50px;
+    padding: 80px 100px 100px;
+    background-image: linear-gradient(to right, #7b0406, #f1e719);
+    font-size: 2rem;
+}
+.btn-primary {
+    margin-top: 50px;
+}
+/*set up portfolio*/
+#portfolio:target {
+    padding-top: 160px;
+}
+#portfolio {
+    margin-top: 50px;
+    padding: 80px 100px 100px;
+    background-image: linear-gradient(to right, #7b0406, #f1e719);
+    font-size: 2rem;
+}
+figcaption {
+    text-align: center;
+}
+
+.portfolio-content {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.portfolio-content .entry-content {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 33, 33, .8);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .35s;
+}
+
+.portfolio-content:hover .entry-content {
+    visibility: visible;
+    opacity: 1;
+}
+/*set up experience*/
+#experience:target {
+    padding-top: 160px;
+}
+
+#experience {
+    margin-top: 50px;
+    padding: 80px 100px 100px;
+    background-image: linear-gradient(to right, #7b0406, #f1e719);
+    font-size: 2rem;
+}
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+/*set up hobbies*/
+#hobbies:target {
+    padding-top: 160px;
+}
+
+#hobbies {
+    margin-top: 50px;
+    padding: 80px 100px 100px;
+    background-image: linear-gradient(to right, #7b0406, #f1e719);
+    font-size: 2rem;
+}
+.portfolio-content{
+    text-align: center;
+}
+/*set up contact*/
+#contact {
+    margin-top: 50px;
+    padding: 80px 100px 100px;
+    background-image: linear-gradient(to right, #7b0406, #f1e719);
+    font-size: 2rem;
+}
+/*set up footer*/
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 50px 50px;
+    background-image: linear-gradient(to right, #f1e719, #7b0406);
+}
+
+
+
 @media (min-device-width: 180px) and (max-device-width:480px),
 (min-width: 180px) and (max-width:480px) {
 /*set up navbar*/
@@ -140,7 +240,54 @@ p {
     .logo {
         width: 8%;
     }
-    
+    /*set up diploma*/
+    #diplomes {
+        margin-top: 50px;
+        padding: 60px 25px 25px;
+    }
+    /*set up portfolio*/
+    #portfolio {
+        margin-top: 50px;
+        padding: 60px 25px 25px;
+    }
+    /*set up experience*/
+    #experience {
+        margin-top: 50px;
+        padding: 60px 25px 25px;
+    }
+    .imgLogo {
+        width: 98%;
+    }
+    dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 1rem;
+    }
+    /*set up hobbies*/
+    #hobbies {
+        margin-top: 50px;
+        padding: 60px 25px 25px;
+    }
+    /*set up contact*/
+    #contact {
+        margin-top: 50px;
+        padding: 60px 25px 25px;
+    }
+    label{
+        font-size: 1rem;
+    }
+    .btn-dark {
+        width: 100%;
+    }
+    .btn {
+        width:163%;
+        font-size: 10px;
+       
+    }
+
 }
 
 
@@ -155,6 +302,7 @@ p {
     .logo {
         width: 4%;
     }
+    
 }
 
 @media (orientation: landscape) and (min-device-width : 1024px) and (max-device-width : 1366px),
