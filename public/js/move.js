@@ -1,21 +1,21 @@
-var moveText =  {
+var moveText = {
 
-    texth1 : document.getElementsById("textH1"),
-    texth2 : document.getElementById("textH2"),
+  texth1: document.getElementById("textHello"),
+  texth2: document.getElementById("textHello2"),
 
-  move : function(){
+  move: function () {
 
     this.displayText();
 
   },
-  displayText : function(){
+  displayText: function () {
     var myThis = this;
-    setTimeout(function(){
+    setTimeout(function () {
       myThis.texth1.style.display = "block";
-    },3000);
-    setTimeout(function(){
+    }, 3000);
+    setTimeout(function () {
       myThis.texth2.style.display = "block";
-    },5000);
+    }, 5000);
   },
 }
 moveText1 = Object.create(moveText);

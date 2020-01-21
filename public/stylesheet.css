@@ -19,9 +19,36 @@ body {
 .navbar-brand {
     margin-left: 10px;
 }
-
 .collapse {
     font-size: 25px;
+}
+/* set up hello*/
+#textH1Hello {
+    width: 65%;
+    position: absolute;
+    color: white;
+    top: 260px;
+    text-align: center;
+    animation: fadein 4s;
+    font-size: 2.5rem;
+}
+#textH1Hello .color {
+    color: black;
+}
+
+#textH2Hello {
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 340px;
+    left: 24%;
+    text-align: center;
+    animation: fadein 4s;
+    font-size: 2.5rem;
+}
+
+#textH2Hello .color {
+    color: black;
 }
 /*set up competences */
 #competences:target {
@@ -213,6 +240,17 @@ footer {
     .logoCyc {
         width: 20%;
     }
+    /* set up hello*/
+    
+    #textH1Hello{
+        top: 105px;
+        font-size: 10px;
+    }
+    #textH2Hello {
+        top: 135px;
+        font-size: 10px;
+        left: 23%;
+    }
     .collapse {
         font-size: 9px;
     }
@@ -299,6 +337,16 @@ footer {
 (min-width: 768px) and (max-width:1023px) {
     .logo {
         width: 4%;
+    }
+    #textH1Hello {
+        top: 189px;
+        font-size: 24px;
+    }
+
+    #textH2Hello {
+        top: 233px;
+        font-size: 18px;
+        left: 23%;
     }
     
 }
