@@ -76,10 +76,10 @@
                 <div class="send" style="margin-top:50px">
                     <div class="row justify-content-between">
                         <div class="col-4">
-                            <input class="btn btn-dark" name="sendMail" type="submit">
+                            <input class="btn btn-dark" id="submitContact" name="sendMail" type="submit">
                         </div>
                         <div class="col-4">
-                            <button style="margin-left: -31px;" class="btn btn-dark"><a style="text-decoration:none;color:white" href="index.php?action=home">Retour à l'accueil</a></button>
+                            <button style="margin-left: -31px;" class="btn btn-dark" id="buttonContact"><a style="text-decoration:none;color:white" href="index.php?action=home">Retour à l'accueil</a></button>
                         </div>
                     </div>
             </form>
