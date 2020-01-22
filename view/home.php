@@ -7,7 +7,7 @@
 <section id="home">
     <img src="public/images/1.jpg" alt="" style="width: 100%;margin-top: 80px;">
     <div id="textHello" style="display:none">
-        <h1 id="textH1Hello">Bienvenue, <span class='color'>dans mon monde</span></h1>
+        <h1 id="textH1Hello">Bienvenue <span class='color'>dans mon monde</span></h1>
     </div>
     <div id="textHello2" style="display:none">
         <h2 id="textH2Hello">Créer c'est <span class='color'>gagner</span></h2>
@@ -108,7 +108,7 @@
         </button>
         <div class="collapse" id="collapseDev">
             <div class="card card-body">
-                Réalisation de 5 projets passant par plusieurs languages de programmation.
+                Réalisation de 5 projets developpés avec plusieurs languages de programmation.
             </div>
         </div>
     </div>
